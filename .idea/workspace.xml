@@ -4,15 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e850ad56-c014-4622-98c3-a65da04d0992" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/RequestHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/Salary.java" afterDir="false" />
+    <list default="true" id="e850ad56-c014-4622-98c3-a65da04d0992" name="Changes" comment="Salary">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/UpdateSalaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/create-salary-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/salary-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/update-salary-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/SalaryViewController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +26,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +59,14 @@
       <option name="presentableId" value="Default" />
       <updated>1670687905253</updated>
     </task>
+    <task id="LOCAL-00001" summary="Salary">
+      <created>1670688775462</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670688775462</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -66,5 +79,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Salary" />
+    <option name="LAST_COMMIT_MESSAGE" value="Salary" />
   </component>
 </project>

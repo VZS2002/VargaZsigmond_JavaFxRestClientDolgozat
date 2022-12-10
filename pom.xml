@@ -15,6 +15,14 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10</version>
+        </dependency>
+
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
@@ -25,6 +33,7 @@
             <artifactId>javafx-fxml</artifactId>
             <version>18.0.1</version>
         </dependency>
+
 
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -61,7 +70,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat/hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat.HelloApplication
+                                hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat/hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat.App
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
