@@ -19,11 +19,11 @@
                 <Button fx:id="deleteButton" mnemonicParsing="false" onAction="#deleteClick" text="Delete" />
             </children>
         </HBox>
-        <TableView fx:id="peopleTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+        <TableView fx:id="salaryTable" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
             <columns>
                 <TableColumn fx:id="nameCol" minWidth="50.0" prefWidth="250.0" text="Name" />
                 <TableColumn fx:id="salaryCol" minWidth="50.0" prefWidth="250.0" text="Salary" />
-                <TableColumn fx:id="degreeColCol" minWidth="50.0" prefWidth="75.0" text="College degree" />
+                <TableColumn fx:id="degreeCol" minWidth="50.0" prefWidth="75.0" text="College degree" />
             </columns>
         </TableView>
     </children>

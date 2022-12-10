@@ -22,7 +22,7 @@ public class SalaryViewController extends Controller {
     @FXML
     private Button deleteButton;
     @FXML
-    private TableView<Salary> peopleTable;
+    private TableView<Salary> salaryTable;
     @FXML
     private TableColumn<Salary, String> nameCol;
     @FXML
@@ -52,9 +52,9 @@ public class SalaryViewController extends Controller {
         String content = response.getContent();
         Gson converter = new Gson();
         Salary[] people = converter.fromJson(content, Salary[].class);
-        peopleTable.getItems().clear();
+        salaryTable.getItems().clear();
         for (Salary person : people) {
-            peopleTable.getItems().add(person);
+            salaryTable.getItems().add(person);
         }
     }
 
@@ -87,19 +87,19 @@ public class SalaryViewController extends Controller {
 
     @FXML
     public void updateClick(ActionEvent actionEvent) {
-        int selectedIndex = peopleTable.getSelectionModel().getSelectedIndex();
+        int selectedIndex = salaryTable.getSelectionModel().getSelectedIndex();
         if (selectedIndex == -1) {
             warning("Please select a person from the list first");
             return;
         }
-        Person selected = peopleTable.getSelectionModel().getSelectedItem();
+        Salary selected = salaryTable.getSelectionModel().getSelectedItem();
         try {
-            FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("update-people-view.fxml"));
+            FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("update-salary-view.fxml"));
             Scene scene = new Scene(fxmlLoader.load(), 640, 480);
             Stage stage = new Stage();
-            stage.setTitle("Update People");
+            stage.setTitle("Update Salary");
             stage.setScene(scene);
-            UpdatePeopleController controller = fxmlLoader.getController();
+            UpdateSalaryController controller = fxmlLoader.getController();
             controller.setPerson(selected);
             stage.show();
             insertButton.setDisable(true);
@@ -122,13 +122,13 @@ public class SalaryViewController extends Controller {
 
     @FXML
     public void deleteClick(ActionEvent actionEvent) {
-        int selectedIndex = peopleTable.getSelectionModel().getSelectedIndex();
+        int selectedIndex = salaryTable.getSelectionModel().getSelectedIndex();
         if (selectedIndex == -1) {
             warning("Please select a person from the list first");
             return;
         }
 
-        Person selected = peopleTable.getSelectionModel().getSelectedItem();
+        Salary selected = salaryTable.getSelectionModel().getSelectedItem();
         Alert confirmation = new Alert(Alert.AlertType.CONFIRMATION);
         confirmation.setHeaderText(String.format("Are you sure you want to delete %s?", selected.getName()));
         Optional<ButtonType> optionalButtonType = confirmation.showAndWait();

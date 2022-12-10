@@ -37,30 +37,30 @@ public class UpdateSalaryController extends Controller {
     private void initialize() {
         SpinnerValueFactory.IntegerSpinnerValueFactory valueFactory =
                 new SpinnerValueFactory.IntegerSpinnerValueFactory(0, 200, 30);
-        ageField.setValueFactory(valueFactory);
+        booleanField.setValueFactory(valueFactory);
     }
 
     @FXML
     public void updateClick(ActionEvent actionEvent) {
         String name = nameField.getText().trim();
-        String email = emailField.getText().trim();
-        int age = ageField.getValue();
+        String email = salaryField.getText().trim();
+        int age = booleanField.getValue();
         if (name.isEmpty()) {
             warning("Name is required");
             return;
         }
-        if (email.isEmpty()) {
-            warning("Email is required");
+        if (salary.isEmpty()) {
+            warning("Salary is required");
             return;
         }
-        // TODO: validate email format
-        this.person.setName(name);
-        this.person.setEmail(email);
-        this.person.setAge(age);
+
+        this.salary.setName(name);
+        this.salary.setSalary(salary.getSalary());
+        this.salary.setDegree(salary.isDegree());
         Gson converter = new Gson();
-        String json = converter.toJson(this.person);
+        String json = converter.toJson(this.salary);
         try {
-            String url = App.BASE_URL + "/" + this.person.getId();
+            String url = App.BASE_URL + "/" + this.salary.getId();
             Response response = RequestHandler.put(url, json);
             if (response.getResponseCode() == 200) {
                 Stage stage = (Stage) this.updateButton.getScene().getWindow();

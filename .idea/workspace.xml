@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e850ad56-c014-4622-98c3-a65da04d0992" name="Changes" comment="Salary">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/UpdateSalaryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/create-salary-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/salary-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/update-salary-view.fxml" afterDir="false" />
+    <list default="true" id="e850ad56-c014-4622-98c3-a65da04d0992" name="Changes" comment="Controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/SalaryViewController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/SalaryViewController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/SalaryViewController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/UpdateSalaryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/UpdateSalaryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/salary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/salary-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/update-salary-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hu/petrik/restclient/vargazsigmond_javafxrestclientdolgozat/update-salary-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +41,32 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat.App" />
+      <module name="VargaZsigmond_JavaFxRestClientDolgozat" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.petrik.restclient.vargazsigmond_javafxrestclientdolgozat.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -66,7 +83,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670688775462</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Controller">
+      <created>1670691315921</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670691315921</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -82,6 +106,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Salary" />
-    <option name="LAST_COMMIT_MESSAGE" value="Salary" />
+    <MESSAGE value="Controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controller" />
   </component>
 </project>
